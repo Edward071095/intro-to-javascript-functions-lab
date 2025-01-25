@@ -55,9 +55,9 @@ Example: isCharAVowel('a') should return true.
 
 Complete the exercise in the space below:
 */
-/*
-function isCharAVowel(A) {
-  if (A = 'Vowel') {
+
+function isCharAVowel(character) {
+  if (character === "a" || character === "e" || character === "i" || character === "o" || character === "u") {
     return 'true'
   } else {
     return 'false'
@@ -65,8 +65,8 @@ function isCharAVowel(A) {
 };
 
 
-console.log('Exercise 3 Result:', isCharAVowel("a"));
-*/
+console.log('Exercise 3 Result:', isCharAVowel("y"));
+
 
 /*
 Exercise 4: generateEmail()
@@ -80,12 +80,12 @@ should return 'johnsmith@example.com'.
 Complete the exercise in the space below:
 */
 /*
-function generateEmail(buckjones, yahoo){
-    email = buckjones + '@' + yahoo
+function generateEmail(name, email){
+    email = name + '@' + email
     return email
 };
 
-console.log('Exercise 4 Result:', generateEmail("buckjones", "yahoo.com"));
+console.log('Exercise 4 Result:', generateEmail("name", "email.com"));
 */
 
 /*
@@ -100,13 +100,39 @@ Example: greetUser('Sam', 'morning') should return "Good morning, Sam!"
 Complete the exercise in the space below:
 */
 /*
-function greetUser(Sam, morning){
-  if (morning = "morning")
-    greeting = "Good morning, Sam";
-  return greeting
+function greetUser(name, timeOfDay){
+  
+  if (timeOfDay === "morning") {
+    return(`Good morning, ${name}!`)
+ 
+  } else if (timeOfDay === "afternoon") {
+    return(`Good afternnon , ${name}!`)
+ 
+   } else (timeOfDay === "evening")
+    return(`Good evening , ${name}!`) 
 };
-console.log('Exercise 5 Result:', greetUser("Sam", "morning"));
+//greetUser("Ed", "morning")
+console.log('Exercise 5 Result:', greetUser("Rick", "morning"));
 */
+/*
+function greetUser(name, timeOfDay) {
+  timeOfDay = "morning"
+  timeOfDay = "afternoon"
+  timeOfDay = "evening"
+  return "Good {timeOfDay}, {name}!"
+}; 
+
+    if (timeOfDay) 'morning'
+        return "Good morning, Sam!"
+     if (timeOfDay)  'afternoon'
+        return "Good afternoon, Sam!"
+      if (timeOfDay) 'evening'
+        return "Good evening, Sam!"
+   
+  
+ console.log('Exercise 5 Result:', greetUser("Sam", "morning"));
+*/
+
 
 /*
 Exercise 6: maxOfThree()
@@ -120,13 +146,18 @@ Complete the exercise in the space below:
 */
 
 /*
-function maxOfThree(num5, num10, num8){
-    if (num10 > num8)
-      return 10
-
+function maxOfThree(x, y, z) {
+    if (x > y && x > z) {
+      return x 
+    } else if (y > x && y > z) {
+      return y
+    } else  (z > x && z > y); {
+      return z
+    }
+      
 };
 
-console.log('Exercise 6 Result:', maxOfThree(5, 10, 8));
+console.log('Exercise 6 Result:', maxOfThree(17, 31, 20));
 */
 
 /*
@@ -210,9 +241,10 @@ function basicCalculator(num1, num2, operation) {
       return "Invalid operation";
   }
 }
+/*
 
 console.log('Exercise 9 Result:', basicCalculator(10, 5, "subtract"));
-
+*/
 
 
 
