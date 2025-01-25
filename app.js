@@ -55,7 +55,7 @@ Example: isCharAVowel('a') should return true.
 
 Complete the exercise in the space below:
 */
-
+/*
 function isCharAVowel(character) {
   if (character === "a" || character === "e" || character === "i" || character === "o" || character === "u") {
     return 'true'
@@ -66,7 +66,7 @@ function isCharAVowel(character) {
 
 
 console.log('Exercise 3 Result:', isCharAVowel("y"));
-
+*/
 
 /*
 Exercise 4: generateEmail()
@@ -79,14 +79,14 @@ should return 'johnsmith@example.com'.
 
 Complete the exercise in the space below:
 */
-/*
+
 function generateEmail(name, email){
     email = name + '@' + email
     return email
 };
 
 console.log('Exercise 4 Result:', generateEmail("name", "email.com"));
-*/
+
 
 /*
 Exercise 5: greetUser()
