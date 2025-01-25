@@ -99,7 +99,7 @@ Example: greetUser('Sam', 'morning') should return "Good morning, Sam!"
 
 Complete the exercise in the space below:
 */
-
+/*
 function greetUser(name, timeOfDay){
   
   if (timeOfDay === "morning") {
@@ -113,7 +113,7 @@ function greetUser(name, timeOfDay){
 };
 
 console.log('Exercise 5 Result:', greetUser("Rick", "morning"));
-
+*/
 /*
 function greetUser(name, timeOfDay) {
   timeOfDay = "morning"
@@ -145,7 +145,7 @@ Example: maxOfThree(17, 4, 9) should return 17.
 Complete the exercise in the space below:
 */
 
-/*
+
 function maxOfThree(x, y, z) {
     if (x > y && x > z) {
       return x 
@@ -158,7 +158,7 @@ function maxOfThree(x, y, z) {
 };
 
 console.log('Exercise 6 Result:', maxOfThree(17, 31, 20));
-*/
+
 
 /*
 Exercise 7: calculateTip()
