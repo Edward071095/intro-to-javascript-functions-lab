@@ -79,14 +79,14 @@ should return 'johnsmith@example.com'.
 
 Complete the exercise in the space below:
 */
-
+/*
 function generateEmail(name, email){
     email = name + '@' + email
     return email
 };
 
 console.log('Exercise 4 Result:', generateEmail("name", "email.com"));
-
+*/
 
 /*
 Exercise 5: greetUser()
@@ -99,7 +99,7 @@ Example: greetUser('Sam', 'morning') should return "Good morning, Sam!"
 
 Complete the exercise in the space below:
 */
-/*
+
 function greetUser(name, timeOfDay){
   
   if (timeOfDay === "morning") {
@@ -111,9 +111,9 @@ function greetUser(name, timeOfDay){
    } else (timeOfDay === "evening")
     return(`Good evening , ${name}!`) 
 };
-//greetUser("Ed", "morning")
+
 console.log('Exercise 5 Result:', greetUser("Rick", "morning"));
-*/
+
 /*
 function greetUser(name, timeOfDay) {
   timeOfDay = "morning"
